@@ -115,7 +115,7 @@ body {
     }      
 }
 
-@media screen and (max-width: 425px) {
+@media screen (max-width: 425px) and (min-width: 280px) {
     body {
         text-align: center;
         position: relative;
