@@ -93,26 +93,35 @@ body {
     background-color: hsla(277, 57%, 31%, 0.633);
 }
 
-@media screen and (max-width: 750) and (min-width: 426) {
+@media screen and (max-width: 750px) and (min-width: 426px) {
     body {
         font-size: 12px;
     }
 
     .text-component {
         padding: 12% 12% 0 12%;
-
+        text-align: center;
     }
 
     .title {
         font-size: 22px;
     }
 
+    .subtitle {
+        font-size: 12px;
+    }
+
     .stats-component {
-        padding-top: 30px;
+        padding-top: 18px;
+        margin-bottom: 15px;
+    }
+    .stats-component p{
+        font-size: 12px;
+        margin-right: 8px;
     }
 
     .num {
-        font-size: 17px;
+        font-size: 18px;
     }      
 }
 
