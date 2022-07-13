@@ -92,7 +92,7 @@ body {
     background-color: hsla(277, 57%, 31%, 0.633);
 }
 
-@media screen (max-width: 750) and (min-width: 426) {
+@media screen and (max-width: 750) and (min-width: 426) {
     body {
         font-size: 12px;
     }
@@ -115,7 +115,7 @@ body {
     }      
 }
 
-@media screen (max-width: 425px) and (min-width: 280px) {
+@media screen and (max-width: 425px) {
     body {
         text-align: center;
         position: relative;
@@ -149,6 +149,5 @@ body {
 
     .subtitle {
         font-size: 16px;
-        font-family: ;
     }
 }
